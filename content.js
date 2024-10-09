@@ -3,8 +3,11 @@ const checkVideo = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const videoId = urlParams.get("v");
 
-  if (videoId === targetVideoId) {
+  if (videoId === targetVideoId || videoId === "tXEPbotEjZE") {
     chrome.runtime.sendMessage({ action: "muteTab" });
+  }
+  else {
+    chrome.runtime.sendMessage({ action: "unmuteTab" });
   }
 };
 
