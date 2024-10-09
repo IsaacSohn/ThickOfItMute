@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "YouTube Tab Muter",
+    "name": "thick of it muter",
     "version": "1.0",
     "permissions": ["tabs", "activeTab"],
     "background": {
