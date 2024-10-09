@@ -3,6 +3,10 @@
     "name": "thick of it muter",
     "version": "1.0",
     "permissions": ["tabs", "activeTab"],
+    "icons": {
+    "128": "assets/icon/icon-128.png"
+  },
+  "description": "Mutes KSI's \"Thick of It\" music video",
     "background": {
       "service_worker": "background.js"
     },
